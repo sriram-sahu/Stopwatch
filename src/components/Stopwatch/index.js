@@ -16,8 +16,7 @@ class Stopwatch extends Component {
     clearInterval(this.timeInterval)
     this.setState({isTimerRunning: false, timeElapsedInSeconds: 0})
   }
-
-  onStopTimer = () => {
+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
     clearInterval(this.timeInterval)
     this.setState({isTimerRunning: false})
   }
